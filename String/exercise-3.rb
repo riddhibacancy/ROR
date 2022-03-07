@@ -8,5 +8,5 @@ class String
     word=gets.chomp.to_s
     
   
-  puts "#{word}".remove_vowel
+  p "#{word}".remove_vowel
 end
