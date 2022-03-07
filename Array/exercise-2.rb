@@ -1,4 +1,4 @@
-puts "Enter the number"
+p "Enter the number"
 num=gets.chomp.to_i
 
 temp=num
@@ -11,7 +11,7 @@ while num!=0  #implementation of while loop
 end
 
 if(temp==sum)
-    puts "The #{temp} is a palindrome"
+    p "The #{temp} is a palindrome"
 else
-    puts "The #{temp} is not a palindrome"
+    p "The #{temp} is not a palindrome"
 end
